@@ -169,7 +169,7 @@
           <Font name="AR ESSENCE" size="24" style="0"/>
         </Property>
         <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-          <Connection code="currentUser.getName()" type="code"/>
+          <Connection code="currentUser.getName() + &quot;,&quot;" type="code"/>
         </Property>
       </Properties>
     </Component>

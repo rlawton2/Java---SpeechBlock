@@ -111,7 +111,7 @@ public class SpeechBlock extends javax.swing.JFrame {
         jLabel1.setText(getGreeting());
 
         jLabel2.setFont(new java.awt.Font("AR ESSENCE", 0, 24)); // NOI18N
-        jLabel2.setText(currentUser.getName());
+        jLabel2.setText(currentUser.getName() + ",");
 
         buttonGroup1.add(jRadioButton1);
         jRadioButton1.setSelected(true);
@@ -237,11 +237,11 @@ public class SpeechBlock extends javax.swing.JFrame {
         String greeting;
         hour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
         if (hour >= 4 && hour < 11)
-            greeting = "Good Morning,";
+            greeting = "Good Morning ";
         else if (hour >= 11 && hour < 18)
-            greeting = "Good Afternoon,";
+            greeting = "Good Afternoon ";
         else
-            greeting = "Good Evening,";
+            greeting = "Good Evening ";
         return greeting;
     }
     

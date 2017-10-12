@@ -7,7 +7,7 @@ package com.user;
 
 /**
  *
- * @author Rowdy
+ * @author Ron Lawton
  */
 public class User {
     
